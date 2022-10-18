@@ -1,5 +1,5 @@
 ﻿Create a class Library project named CafeBoston.DATA 
-and create 5 clasees and 1 enum as described below
+and create 4 clasees and 1 enum as described below
 
 Product
 * ProductName: string
