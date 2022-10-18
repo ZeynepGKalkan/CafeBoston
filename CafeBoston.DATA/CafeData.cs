@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CafeBoston.DATA
 {
-    internal class CafeData
+    public class CafeData
     {
+        public int TableCount { get; set; }
+        public List<Product> Products { get; set; }
+        public List<Order> ActiveOrders { get; set; }
+        public List<Order> PastOrders { get; set; }
     }
 }

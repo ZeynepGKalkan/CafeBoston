@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace CafeBoston.DATA
 {
-    internal class Order
+    public class Order
     {
+        public int TableNo { get; set; }
+        public OrderState State { get; set; }
+        public decimal PaidAmount { get; set; }
+        public DateTime StarTime { get; set; }
+        public DateTime EndTime { get; set; }
+        public  List<OrderDetail> OrderDetails { get; set; }
+        public readonly string TotalPriceTRY { get; set; }
     }
 }

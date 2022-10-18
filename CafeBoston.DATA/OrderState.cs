@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CafeBoston.DATA
 {
-    internal class OrderState
+    public enum OrderState
     {
+        Active=0,
+        paid=1,
+        Canceled=2,
+
     }
 }

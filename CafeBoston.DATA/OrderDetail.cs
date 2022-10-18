@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CafeBoston.DATA
 {
-    internal class OrderDetail
+    public class OrderDetail
     {
+        public string ProductName { get; set; }
+        public decimal UnitPrice { get; set; }
+        public int Quantity { get; set; }
+        public readonly string TotalPriceTRY { get; set; }
     }
 }
