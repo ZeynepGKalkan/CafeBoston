@@ -54,6 +54,7 @@
             this.tsmiProducts.Name = "tsmiProducts";
             this.tsmiProducts.Size = new System.Drawing.Size(66, 20);
             this.tsmiProducts.Text = "Products";
+            this.tsmiProducts.Click += new System.EventHandler(this.tsmiProducts_Click);
             // 
             // tsmiOrderHistory
             // 

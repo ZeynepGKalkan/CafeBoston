@@ -66,8 +66,7 @@ namespace CafeBoston.UI
                 orderDetail.Quantity += (int)nudQuantity.Value;
                 _orderDetails.ResetBindings();
             }
-           
-           
+
             
         }
 
